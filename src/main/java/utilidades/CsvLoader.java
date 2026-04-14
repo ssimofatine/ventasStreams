@@ -2,11 +2,9 @@ package utilidades;
 
 import entidades.Venta;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.List;
+import java.io.*;
+import java.nio.file.*;
+import java.util.*;
 
 public class CsvLoader {
 
@@ -26,6 +24,7 @@ public class CsvLoader {
         }
 
 
+        return ventas;
     }
 
 }

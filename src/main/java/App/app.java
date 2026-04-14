@@ -10,9 +10,8 @@ public class app {
     static void main() {
 
         //Cargar fichero ventas.csv
-            List<Venta> ventas = CsvLoader.cargarVentas("simo");
+            List<Venta> ventas = CsvLoader.cargarVentas("src/main/resources/ventas.csv");
         ventas.forEach(System.out::println);
-        System.out.println("simo");
 
     }
 }
